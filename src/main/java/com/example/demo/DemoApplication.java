@@ -31,10 +31,10 @@ public class DemoApplication {
 		return List.of(
 				new Student(
 						1L,
+						"mamet",
 						"mamet@gmail.com",
-						23,
-						LocalDate.of(2000,Month.NOVEMBER,5),
-
+						21,
+						LocalDate.of(2000,Month.NOVEMBER,5)
 				)
 		);
 	}
