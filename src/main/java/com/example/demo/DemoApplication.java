@@ -10,8 +10,8 @@ import java.time.LocalDate;
 import java.time.Month;
 import java.util.List;
 
-@SpringBootApplication
-@RestController
+
+@SpringBootApplication //framework
 public class DemoApplication {
 
 	public static void main(String[] args) {
@@ -20,22 +20,9 @@ public class DemoApplication {
 
 	//Rest Controller
 	//import GetMapping
-	@GetMapping
+
 /*	public String hello(){
 		return "Hello World";
 	}*/
-	//example list
-//DemoApplication.java
-	public List<Student> hello1(){
-		return List.of(
-				new Student(
-						1L, //represent id
-						"mamet", //represent name
-						"mamet@gmail.com",//represent email
-						21,//represent age
-						LocalDate.of(2000,Month.NOVEMBER,5) //represent dob
-				)
-		);
-	}
 
 }
